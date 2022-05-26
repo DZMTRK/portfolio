@@ -40,6 +40,15 @@ nav {
     display: none;
 }
 
+.button_blue {
+    background-color: #53C7EC;
+    width: 279px;
+    height: 78px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*FOOTER SECTION*/
 #social_media {
@@ -75,7 +84,11 @@ nav {
     }
 
     .phone {
-        display: contents;
+        height: 294px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #share_button, #instagram_button {
