@@ -1,0 +1,56 @@
+.my_photo {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.my_photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.phone {
+    display: none;
+}
+
+/*FOOTER SECTION*/
+#social_media {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.social_media_button {
+    margin: 0 auto;
+    max-width: 60px;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.social_media_button img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*END OF FOOTER SECTION*/
+
+
+@media only screen and (max-width: 428px) {
+    #site_name {
+        display: none;
+    }
+
+    .first_page {
+        display: none;
+    }
+
+    .phone {
+        display: contents;
+    }
+
+    #share_button, #instagram_button {
+        display: none;
+    }
+}
