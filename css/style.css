@@ -66,6 +66,10 @@ nav {
         display: none;
     }
 
+    .horiz_line {
+        display: none;
+    }
+
     .first_page {
         display: none;
     }
