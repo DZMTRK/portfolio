@@ -1,3 +1,18 @@
+/* HEADER */
+#site_name h1 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.horiz_line {
+    margin: 0 auto;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+/* END OF HEADER */
+
 .my_photo {
     margin: 0 auto;
     max-width: 300px;
