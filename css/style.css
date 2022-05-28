@@ -53,6 +53,7 @@ nav {
 
 /*FOOTER SECTION*/
 #social_media {
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
@@ -90,6 +91,11 @@ nav {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #social_media {
+        max-width: 279px;
+        justify-content: space-between;
     }
 
     #share_button, #instagram_button {
