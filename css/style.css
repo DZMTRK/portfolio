@@ -102,6 +102,11 @@ nav {
         display: none;
     }
 
+    nav {
+        justify-content: center;
+        padding-top: 15px;
+    }
+
     .horiz_line {
         display: none;
     }
