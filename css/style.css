@@ -15,6 +15,8 @@ html, body {
     grid-template-columns: 100%;
     row-gap: 3%;
 }
+/* ----------------------------------------------- */
+
 
 /* HEADER */
 #site_name h1 {
@@ -38,7 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
+/* ----------------------------------------------- */
 
 /* MAIN */
 .my_photo {
@@ -68,9 +70,9 @@ nav {
     align-items: center;
     font-weight: bolder;
 }
+/* ----------------------------------------------- */
 
 /*FOOTER SECTION*/
-
 #social_media {
     margin: 0 auto;
     display: flex;
@@ -91,8 +93,10 @@ nav {
     height: auto;
     display: block;
 }
+/* ----------------------------------------------- */
 
 
+/* MOBILE VIEW */
 @media only screen and (max-width: 428px) {
     #site_name {
         display: none;
@@ -121,6 +125,7 @@ nav {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding: 30px;
     }
 
     #social_media {
