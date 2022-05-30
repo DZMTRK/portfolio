@@ -1,10 +1,13 @@
 /* DEBUG SECTION */
-header, main, footer {
+header,
+main,
+footer {
     border: 1px solid red;
 }
 
 /* THIS SECTION CONSISTS CCS GRID LAYOUT FOR OUR PAGE*/
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -15,6 +18,7 @@ html, body {
     grid-template-columns: 100%;
     row-gap: 3%;
 }
+
 /* ----------------------------------------------- */
 
 
@@ -40,9 +44,11 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 nav div:hover {
     font-weight: 900;
 }
+
 /* ----------------------------------------------- */
 
 /* MAIN */
@@ -59,6 +65,23 @@ nav div:hover {
     display: block;
 }
 
+.first_page {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.personal_info h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    padding-top: 15px;
+}
+
+.personal_info p {
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
 .phone {
     display: none;
 }
@@ -73,6 +96,7 @@ nav div:hover {
     align-items: center;
     font-weight: bolder;
 }
+
 /* ----------------------------------------------- */
 
 /*FOOTER SECTION*/
@@ -96,6 +120,7 @@ nav div:hover {
     height: auto;
     display: block;
 }
+
 /* ----------------------------------------------- */
 
 
@@ -136,7 +161,8 @@ nav div:hover {
         justify-content: space-between;
     }
 
-    #share_button, #instagram_button {
+    #share_button,
+    #instagram_button {
         display: none;
     }
 }
