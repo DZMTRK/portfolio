@@ -40,6 +40,9 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+nav div:hover {
+    font-weight: 900;
+}
 /* ----------------------------------------------- */
 
 /* MAIN */
