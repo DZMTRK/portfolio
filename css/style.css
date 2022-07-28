@@ -19,6 +19,16 @@ body {
     row-gap: 3%;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
 /* ----------------------------------------------- */
 
 
@@ -63,52 +73,6 @@ nav div:hover {
 
 /* ----------------------------------------------- */
 
-/* MAIN */
-.my_photo {
-    margin: 0 auto;
-    max-width: 300px;
-    max-height: 300px;
-    overflow: hidden;
-}
-
-.my_photo img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.first_page {
-    width: 95%;
-    margin: 0 auto;
-}
-
-.personal_info h2 {
-    text-align: center;
-    font-size: 2.25rem;
-    padding-top: 15px;
-}
-
-.personal_info p {
-    text-align: justify;
-    font-size: 1.5rem;
-    padding-top: 15px;
-}
-
-.phone {
-    display: none;
-}
-
-.button_blue {
-    background-color: #53C7EC;
-    width: 279px;
-    height: 78px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-}
-
 /* ----------------------------------------------- */
 
 /*FOOTER SECTION*/
@@ -134,11 +98,12 @@ nav div:hover {
     display: block;
 }
 
-/* ----------------------------------------------- */
 
-
+/* -------------------------------------------------------------- */
 /* MOBILE VIEW */
 @media only screen and (max-width: 428px) {
+
+    /* header section layout for mobile view */
     #site_name {
         display: none;
     }
@@ -156,19 +121,8 @@ nav div:hover {
         display: none;
     }
 
-    .first_page {
-        display: none;
-    }
 
-    .phone {
-        height: 294px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px;
-    }
-
+    /* footer section layout for mobile view*/
     #social_media {
         max-width: 279px;
         justify-content: space-between;
@@ -179,32 +133,11 @@ nav div:hover {
         display: none;
     }
 }
+
+
 /* -------------------------------------------------------------- */
-
-
 /* WIDE SCREEN VIEW */
 @media only screen and (min-width: 1440px) {
-    main {
-        margin: 0 auto;
-        width: 100%;
-        padding-top: 4%;
-        display: flex;
-    }
-
-    .my_photo {
-        flex-basis: 30%;
-        align-self: flex-start;
-    }
-
-    .first_page {
-        width: 100%;
-        flex-basis: 70%;
-        align-self: flex-start;
-    }
-    
-    #about_me h2 {
-        padding-top: 0;
-    }
     /* footer section for wide screen view */
     /* adjasting social media buttons to the right side*/
     #social_media {
